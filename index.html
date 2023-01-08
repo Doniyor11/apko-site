@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Apko</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+<div class="site-container">
+  <header class="header">
+  <div class="container header__menu">
+    <a class="header__logo" href="index.html"><img src="img/logo.svg" alt=""></a>
+    <ul class="header__navbar list-reset"  data-menu>
+      <li class="header__nav">
+        <a class="header__nav_link" href="automation.html">Автоматизация</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="infrastructure.html">Инфраструктура</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="projects.html">Проекты</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="industries.html">Отрасли</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="about.html">О компании</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="carer.html">Карьера</a>
+      </li>
+      <li class="header__nav">
+        <a class="header__nav_link" href="contact.html"> Контакты</a>
+      </li>
+      <li class="header__nav-social">
+        <a href=""><img src="img/telegram.svg" alt="telegram"></a>
+        <a href=""><img src="img/facebook.svg" alt="telegram"></a>
+        <a href=""><img src="img/instagram.svg" alt="telegram"></a>
+      </li>
+    </ul>
+    <a class="header__phone" href="tel:+998 78 113 33 44"><img src="img/phone-call.svg" alt="">+998 78 113 33 44</a>
+    <!--  burger  -->
+    <div class="header__mobile-menu">
+      <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <img src="img/menuIcon.svg" alt="menu icon">
+      </button>
+    </div>
+    <!--    <select name="" id="" class="header__lang">-->
+    <!--      <option value="">RU</option>-->
+    <!--      <option value="">ENG</option>-->
+    <!--      <option value="">UZ</option>-->
+    <!--    </select>-->
+  </div>
+
+</header>
+
+  <main class="main">
+    <div class="hero">
+  <!-- Slider main container -->
+  <div class="swiper mySwiper2">
+    <div class="swiper-wrapper slider-hero">
+      <div class="swiper-slide"
+           style="background-image: url('img/slider-img1.png'); background-size: cover; background-position: center; background-repeat: no-repeat">
+        <div class="container hero__text">
+          <h1>APKO DIGITALITY</h1>
+          <p>Для автоматизации CRM, отраслевых и внутренних
+            процессов с помощью no-code технологий.</p>
+          <button type="submit" class="hero__btn btn-reset">Подробнее</button>
+        </div>
+      </div>
+      <div class="swiper-slide"
+           style="background-image: url('img/slider-img2.png'); background-size: cover; background-position: center; background-repeat: no-repeat">
+        <div class="container hero__text">
+          <h1>APKO DIGITALITY</h1>
+          <p>Для автоматизации CRM, отраслевых и внутренних
+            процессов с помощью no-code технологий.</p>
+          <button type="submit" class="hero__btn btn-reset">Подробнее</button>
+        </div>
+      </div>
+      <div class="swiper-slide"
+           style="background-image: url('img/slider-img3.png'); background-size: cover; background-position: center; background-repeat: no-repeat">
+        <div class="container hero__text">
+          <h1>APKO DIGITALITY</h1>
+          <p>Для автоматизации CRM, отраслевых и внутренних
+            процессов с помощью no-code технологий.</p>
+          <button type="submit" class="hero__btn btn-reset">Подробнее</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation buttons -->
+    <div class="swiper-button-next">
+      <svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.5" d="M0 6H32.1082L26.9189 0.75L27.5753 0L34 6.5L27.5753 13L26.9189 12.25L32.1082 7H0V6Z"
+              fill="white"/>
+      </svg>
+    </div>
+    <div class="swiper-button-prev">
+      <svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.5" d="M34 6H1.89184L7.08105 0.75L6.42474 0L0 6.5L6.42474 13L7.08105 12.25L1.89184 7H34V6Z"
+              fill="white"/>
+      </svg>
+    </div>
+
+    <div class="swiper__info">
+      <div class="swiper__info-boxes active">
+        <p class="swiper__info-number" id="number">01</p>
+        <span class="swiper__info-line" id="line"></span>
+        <p class="swiper__info-text" id="text">Apko Digitality</p>
+      </div>
+      <div class="swiper__info-boxes">
+        <p class="swiper__info-number" id="number">02</p>
+        <span class="swiper__info-line" id="line"></span>
+        <p class="swiper__info-text" id="text">Модули
+          разшерение</p>
+      </div>
+      <div class="swiper__info-boxes">
+        <p class="swiper__info-number" id="number">03</p>
+        <span class="swiper__info-line" id="line"></span>
+        <p class="swiper__info-text" id="text">Неограниченные
+          возможности</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="info">
+  <div class="container row info__row">
+    <div class="col-lg-6">
+      <img class="info__row-img" src="img/logo.png" alt="">
+      <h2 class="info__row-title">Автоматизация
+        бизнес-процессов </h2>
+      <p class="info__row-desc">
+        Решения в области управленческого консалтинга,
+        охватывающих уровни функционирования и управления
+        современным предприятием:
+      </p>
+      <a href="automation.html" class="btn-reset hero__btn">Подробнее</a>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/infoImg.png" alt="">
+      <a href="automation.html" class="btn-reset hero__btn mobile__btn">Подробнее</a>
+    </div>
+  </div>
+</div>
+
+    <div class="services">
+  <div class="container row services__info">
+    <div class="col-xxl-3 col-xl-3  col-lg-6">
+      <a class="services__item" href="services-page-one.html">
+        <img src="img/services1.png" alt="">
+        <p>Автоматизация
+          отдела продаж</p>
+      </a>
+    </div>
+    <div class="col-xxl-3 col-xl-3  col-lg-6 ">
+      <a class="services__item" href="services-page-two.html">
+        <img src="img/services2.png" alt="">
+        <p>Автоматизация
+          контакт центра</p>
+      </a>
+    </div>
+    <div class="col-xxl-3 col-xl-3  col-lg-6 ">
+      <a class="services__item" href="services-page-three.html">
+        <img src="img/services3.png" alt="">
+        <p>Автоматизация
+          HR-отдела</p>
+      </a>
+    </div>
+    <div class="col-xxl-3 col-xl-3  col-lg-6 ">
+      <a class="services__item" href="services-page-four.html">
+        <img src="img/services4.png" alt="">
+        <p class="services__two__item_fulltext">Автоматизация
+          внутренних бизнес
+          процессов</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="swiper mySwiper6">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a class="services__item">
+          <img src="img/services1.png" alt="">
+          <p>Автоматизация
+            отдела продаж</p>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="services__item">
+          <img src="img/services2.png" alt="">
+          <p>Автоматизация
+            контакт центра</p>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="services__item">
+          <img src="img/services3.png" alt="">
+          <p>Автоматизация
+            HR-отдела</p>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a class="services__item">
+          <img src="img/services4.png" alt="">
+          <p class="services__two__item_fulltext">Автоматизация
+            внутренних бизнес
+            процессов</p>
+        </a>
+      </div>
+    </div>
+    <div class="slider__pagination"></div>
+  </div>
+</div>
+
+    <div class="product">
+  <div class="container">
+    <div class="product__title">
+      <h3 class="product__title-title">Готовые решения
+        для автоматизации 20 отраслей</h3>
+    </div>
+    <div class="product__box">
+      <div class="div1">
+        <div class="product__box1 box">
+          <img src="img/finance-hero1.png" alt="">
+          <p>Финансовые <br>
+            сектор</p>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="product__box1 box">
+          <img src="img/finance-hero4.png" alt="">
+          <p>Производство</p>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="product__box1 box">
+          <img src="img/finance-hero5.png" alt="">
+          <p>Агросектор</p>
+        </div>
+      </div>
+      <div class="div4">
+        <div class="product__box1 box">
+          <img src="img/finance-hero3.png" alt="">
+          <p>Ритейл</p>
+        </div>
+      </div>
+      <div class="div5">
+        <div class="product__box1 box">
+          <img src="img/finance-hero2.png" alt="">
+          <p>Финансовые <br>
+            сектор</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper mySwiper7">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="product__box1 box">
+            <img src="img/finance-hero1.png" alt="">
+            <p>Финансовые <br>
+              сектор</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product__box1 box">
+            <img src="img/finance-hero4.png" alt="">
+            <p>Производство</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product__box1 box">
+            <img src="img/finance-hero5.png" alt="">
+            <p>Агросектор</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product__box1 box">
+            <img src="img/finance-hero3.png" alt="">
+            <p>Ритейл</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product__box1 box">
+            <img src="img/finance-hero2.png" alt="">
+            <p>Финансовые <br>
+              сектор</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider__pagination"></div>
+    </div>
+
+    <div class="product__button">
+      <a href="industries.html" class="btn-reset hero__btn">Все отрасли</a>
+    </div>
+  </div>
+</div>
+
+    <div class="advantage">
+  <div class="container">
+    <div class="advantage__title">
+      <h3 class="advantage__title-title">
+        Наши преимущество
+      </h3>
+    </div>
+    <div class="advantage__row">
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage1.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Разработка технического
+          задания</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage2.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Проектирование</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage3.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Дизайн интерфейса
+          CRM-системы</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage4.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Согласование</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage5.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Настройка форм отчетов</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage6.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Тестирование</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage7.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Сдача проекта</p>
+      </div>
+      <div class="advantage__row-box">
+        <div class="advantage__row-box-circle">
+          <img src="img/advantage8.svg" alt="">
+        </div>
+        <p class="advantage__row-box-desc">Внедрение</p>
+      </div>
+    </div>
+
+    <div class="swiper mySwiper8">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage1.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Разработка технического
+              задания</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage2.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Проектирование</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage3.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Дизайн интерфейса
+              CRM-системы</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage4.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Согласование</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage5.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Настройка форм отчетов</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage6.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Тестирование</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage7.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Сдача проекта</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="advantage__row-box">
+            <div class="advantage__row-box-circle">
+              <img src="img/advantage8.svg" alt="">
+            </div>
+            <p class="advantage__row-box-desc">Внедрение</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider__pagination"></div>
+    </div>
+  </div>
+</div>
+
+    <div class="info__two">
+  <div class="container row info__two__row">
+    <div class="col-lg-6">
+      <h2 class="info__two__row-title">Информационная
+        инфраструктура</h2>
+      <p class="info__two__row-desc">
+        Решения в области управленческого консалтинга,
+        охватывающих уровни функционирования и управления
+        современным предприятием:
+      </p>
+      <a href="infrastructure.html" class="hero__btn">Подробнее</a>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/server.png" alt="">
+      <a href="infrastructure.html" class="btn-reset hero__btn mobile__btn">Подробнее</a>
+    </div>
+  </div>
+</div>
+
+    <div class="services__two">
+  <div class="container row">
+    <div class="col-xxl-3 col-xl-3 col-lg-6">
+      <div class="services__two__item">
+        <img src="img/services5.png" alt="">
+        <p>Корпоративные
+          коммуникации </p>
+      </div>
+    </div>
+    <div class="col-xxl-3 col-xl-3 col-lg-6">
+      <div class="services__two__item">
+        <img src="img/services6.png" alt="">
+        <p>Профессиональные
+          сервисы </p>
+      </div>
+    </div>
+    <div class="col-xxl-3 col-xl-3 col-lg-6">
+      <div class="services__two__item">
+
+        <img src="img/services7.png" alt="">
+        <p>Информационная
+          инфраструктура </p>
+      </div>
+    </div>
+    <div class="col-xxl-3 col-xl-3 col-lg-6">
+      <div class="services__two__item">
+        <img src="img/services8.png" alt="">
+        <p>Инженерная
+          инфраструктура </p>
+      </div>
+    </div>
+
+    <div class="swiper mySwiper9">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="services__two__item">
+            <img src="img/services5.png" alt="">
+            <p>Корпоративные
+              коммуникации </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__two__item">
+            <img src="img/services6.png" alt="">
+            <p>Профессиональные
+              сервисы </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__two__item">
+
+            <img src="img/services7.png" alt="">
+            <p>Информационная
+              инфраструктура </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__two__item">
+            <img src="img/services8.png" alt="">
+            <p>Инженерная
+              инфраструктура </p>
+          </div>
+        </div>
+      </div>
+      <div class="slider__pagination"></div>
+    </div>
+  </div>
+</div>
+
+    <div class="clients">
+  <div class="container">
+    <div class="clients__title">
+      <h4>Наши клиенты</h4>
+    </div>
+    <div class="clients__img">
+      <a href="projects-in.html">
+        <img src="img/client1.png" alt="">
+      </a>
+      <a href="projects-in.html">
+        <img src="img/client2.png" alt="">
+      </a>
+      <a href="projects-in.html">
+        <img src="img/client3.png" alt="">
+      </a>
+      <a href="projects-in.html">
+        <img src="img/client4.png" alt="">
+      </a>
+      <a href="projects-in.html">
+        <img src="img/client5.png" alt="">
+      </a>
+    </div>
+
+    <div class="swiper mySwiper10">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/client1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/client2.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/client3.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/client4.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/client5.png" alt="">
+        </div>
+      </div>
+      <div class="slider__pagination"></div>
+    </div>
+    <div class="partner__btn">
+      <a href="projects.html" class="hero__btn">Все клиенты</a>
+    </div>
+  </div>
+</div>
+
+    <div class="partner">
+  <div class="container">
+    <div class="partner__title">
+      <h4>Наши партнеры</h4>
+    </div>
+    <div class="partner__img">
+      <a href="partner-in.html">
+        <img src="img/client1.png" alt="">
+      </a>
+      <a href="partner-in.html">
+        <img src="img/client2.png" alt="">
+      </a>
+      <a href="partner-in.html">
+        <img src="img/client3.png" alt="">
+      </a>
+      <a href="partner-in.html">
+        <img src="img/client4.png" alt="">
+      </a>
+      <a href="partner-in.html">
+        <img src="img/client5.png" alt="">
+      </a>
+    </div>
+
+    <div class="swiper mySwiper11">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="partner-in.html">
+            <img src="img/client1.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="partner-in.html">
+            <img src="img/client2.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="partner-in.html">
+            <img src="img/client3.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="partner-in.html">
+            <img src="img/client4.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="partner-in.html">
+            <img src="img/client5.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="slider__pagination"></div>
+    </div>
+    <div class="partner__btn">
+      <a href="projects.html" class="hero__btn">Все партнеры</a>
+    </div>
+  </div>
+</div>
+
+    <div class="call">
+  <div class="call__info">
+      <h5 class="call__info-title">Запросить бесплатную
+        консультацию и просчет решения</h5>
+    <button type="submit" class="btn-reset hero__btn">Связаться с нами</button>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl-3 col-lg-3 col-mb-12 col-sm-12">
+        <div class="footer__logo">
+          <img class="footer__logo-img" src="img/logo.svg" alt="">
+          <p class="footer__logo-desc">Ваше видение, Наше решение.</p>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-lg-3 col-mb-6 col-sm-3">
+        <div class="footer__menu">
+          <ul class="list-reset footer__menu-list">
+            <li class="footer__menu-list-li">
+              <h4 class="footer__menu-list-li-title">Компания</h4>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="">Услуги и Решения</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="projects.html">Проекты</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="about.html"> О компании</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="carer.html">Карьера</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-lg-3 col-mb-6 col-sm-3">
+        <div class="footer__menu">
+          <ul class="list-reset footer__menu-list">
+            <li class="footer__menu-list-li">
+              <h4 class="footer__menu-list-li-title">Услуги</h4>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="">Облачные решения</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="">Программное обеспечение</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="">Автоматизация бизнес-процессов</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href="">Информационная безопасность</a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link" href=""> Информационная инфраструктуры</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-lg-3 col-mb-12 col-sm-12">
+        <div class="footer__menu">
+          <ul class="list-reset footer__menu-list">
+            <li class="footer__menu-list-li">
+              <h4 class="footer__menu-list-li-title">Будьте на связи! </h4>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link info_link" href="tel:+998 78 113 33 44">
+                <img src="img/phone-callFooter.svg" alt="">
+                +998 78 113 33 44
+              </a>
+            </li>
+            <li class="footer__menu-list-li">
+              <a class="footer__menu-list-li-link info_link" href="mailto:info@apko-d.uz">
+                <img src="img/email-footer.svg" alt="">
+                info@apko-d.uz
+              </a>
+            </li>
+            <li class="footer__menu-list-li info_link">
+              <a class="footer__menu-list-li-link" href="">
+                <img src="img/instagram.svg" alt="instagram">
+              </a>
+              <a class="footer__menu-list-li-link" href="">
+                <img src="img/telegram.svg" alt="telegram">
+              </a>
+              <a class="footer__menu-list-li-link" href="">
+                <img src="img/facebook.svg" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+</body>
+
+</html>
